@@ -100,7 +100,13 @@ body {
   transform: translateY(50px);
   animation: fadeIn 1.2s ease forwards;
 }
-
+@media (max-width: 600px) {
+  .container {
+    max-width: 300px;
+    width: 90%;
+    padding: 10px;
+  }
+}
 @keyframes fadeIn {
   to {
     opacity: 1;
