@@ -126,6 +126,40 @@ button, textarea {
   border: none;
   border-radius: 5px;
 }
+    @media (max-width: 600px) {
+  .hero {
+    font-size: 1.5em;
+    padding: 20px;
+  }
+
+  .handwritten {
+    font-size: 2em;
+  }
+
+  .scroll-hint {
+    font-size: 1em;
+    margin-top: 8px;
+  }
+
+  .container {
+    width: 95%;
+    padding: 15px;
+  }
+
+  button {
+    width: 100%;
+    font-size: 0.95em;
+  }
+
+  textarea {
+    width: 100%;
+    font-size: 0.95em;
+  }
+
+  p {
+    font-size: 0.95em;
+  }
+}
 
 button {
   background-color: #7a5c4b;
@@ -171,8 +205,9 @@ textarea {
 <body>
 
   <div class="hero" id="hero">
-    <h1 class="handwritten">Приглашение!</h1>
-  </div>
+  <h1 class="handwritten">Приглашение!</h1>
+  <p class="scroll-hint">↓ Пролистай вниз ↓</p>
+</div>
 
   <div class="main">
     <div class="container">
